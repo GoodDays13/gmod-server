@@ -21,6 +21,7 @@ bin/
 # Ignore Valve package files
 *.vpk
 
-
-userdata
+# Other
+config
 platform
+userdata
