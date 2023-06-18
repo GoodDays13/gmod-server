@@ -195,4 +195,11 @@
 	"lps_show_weapon"		"1"
 	"lps_halo_walls"		"0"
 	"lps_ammocount_airboat"		"500"
+	"tpf_enabled"		"1"
+	"tpf_ap_enabled"		"1"
+	"tpf_should_load_defaults"		"1"
+	"tpf_sv_max_farz"		"1000"
+	"tpf_sv_max_fov"		"90"
+	"tpf_sv_max_bright"		"2000"
+	"tpf_sv_light_forward_offset"		"15"
 }

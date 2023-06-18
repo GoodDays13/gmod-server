@@ -160,7 +160,11 @@ class WorkshopGenerator():
         for item in workshop_collection['items']:
             line = self.RESOURCE_LINE.format(item['id'], item['name'])
 
-            function_to_use(line)
+            try:
+                function_to_use(line)
+            except:
+                line = self.RESOURCE_LINE.format(item['id'], "invalid name")
+                function_to_use(line)
 
         self._quiet_print('\nWorkshop file written to {}'.format(file_path))
         f.write('\n')
