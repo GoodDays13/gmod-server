@@ -1,0 +1,15 @@
+{
+	"RTVPlayerCount": 3.0,
+	"AdditionalMaps": {
+		"murder": ""
+	},
+	"TimeLimit": 28.0,
+	"MapConfigs": [],
+	"MapLimit": 24.0,
+	"AllowCurrentMap": false,
+	"EnableCooldown": true,
+	"MapsBeforeRevote": 3.0,
+	"MapPrefixes": [
+		"ttt_"
+	]
+}
