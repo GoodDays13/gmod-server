@@ -20,12 +20,14 @@ else
     exit 1
 fi
 
-source ./python/bin/activate
+if [ -z "$3" ]; then
+    source ./python/bin/activate
 
-python generate_workshop.py
-python workshop_generator.py -i "$CollectionID" -o garrysmod/lua/autorun/server -f gamemode_workshop.lua
+    python generate_workshop.py
+    python workshop_generator.py -i "$CollectionID" -o garrysmod/lua/autorun/server -f gamemode_workshop.lua
 
-deactivate
+    deactivate
+fi
 
 if [ ! -z "$2" ]; then
     map="$2"

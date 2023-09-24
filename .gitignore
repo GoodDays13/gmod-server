@@ -4,13 +4,21 @@ __pycache__/
 # Ignore directories used for caching purposes
 appcache/
 depotcache/
+linux64/
 steam_cache/
+
+# Ignore steamcmd files. These can just be installed with steamcmd
+srcds*
+steamclient.so
+steam_appid.txt
+ThirdPartyLegalNotices.txt
 
 # Ignore game-specific files and directories
 cstrike/
 garrysmod/*
 hl2/
 sourceengine/
+steamapps/
 
 # Ignore log files and compiled binaries
 logs/
