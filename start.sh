@@ -21,10 +21,16 @@ else
 fi
 
 if [ -z "$3" ]; then
-    source ./python/bin/activate
+    if ! [[ -d .venv ]]; then
+        python -m venv .venv
+        source ./.venv/bin/activate
+        pip install -r .pythonreqs.txt
+    else
+        source ./.venv/bin/activate
+    fi
 
-    python generate_workshop.py
     python workshop_generator.py -i "$CollectionID" -o garrysmod/lua/autorun/server -f gamemode_workshop.lua
+    python workshop_generator.py -i 2961097669 -o garrysmod/lua/autorun/server -f server_workshop.lua
 
     deactivate
 fi

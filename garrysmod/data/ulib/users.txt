@@ -1,20 +1,20 @@
 "STEAM_0:0:125606498"	
 {
-	"deny"	
-	{
-	}
 	"allow"	
 	{
 	}
 	"name"	"Good_Days13"
+	"deny"	
+	{
+	}
 	"group"	"superadmin"
 }
 "76561198211478724"	
 {
-	"allow"	
+	"deny"	
 	{
 	}
-	"deny"	
+	"allow"	
 	{
 	}
 	"group"	"superadmin"
