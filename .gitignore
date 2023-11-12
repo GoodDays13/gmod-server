@@ -51,4 +51,5 @@ garrysmod/cfg/*
 !garrysmod/data/
 garrysmod/data/*logs*
 garrysmod/data/mapvote/recentmaps.txt
+garrysmod/data/ulib/
 #!garrysmod/settings
