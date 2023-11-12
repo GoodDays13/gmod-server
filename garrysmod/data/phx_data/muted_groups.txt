@@ -1,0 +1,4 @@
+{
+	"superadmin": true,
+	"admin": true
+}

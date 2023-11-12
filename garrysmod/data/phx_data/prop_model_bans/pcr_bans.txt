@@ -1,0 +1,4 @@
+[
+	"models/player.mdl",
+	"models/player/kleiner.mdl"
+]

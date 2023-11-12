@@ -1,0 +1,4 @@
+[
+	"models/player.mdl",
+	"custom_playermodel_name"
+]
