@@ -48,5 +48,5 @@ if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
     exit 0
 fi
 
-./srcds_run -game garrysmod -conlog -port 13337 -console -conclearlog -condebug -tvdisable -maxplayers 127 +gamemode "$gamemode" +servercfgfile "$gamemode".cfg +map "$map" +host_workshop_collection "$CollectionID"
+./srcds_run -game garrysmod -conlog -port 13337 -tickrate 128 -console -conclearlog -condebug -tvdisable -maxplayers 127 +gamemode "$gamemode" +servercfgfile "$gamemode".cfg +map "$map" +host_workshop_collection "$CollectionID"
 
